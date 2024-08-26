@@ -22,7 +22,6 @@ public:
         string ans;
         for(string st:a){
             ans+=st;
-
         }
         return ans;
     }
