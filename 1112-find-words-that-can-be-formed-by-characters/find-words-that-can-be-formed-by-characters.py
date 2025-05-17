@@ -4,7 +4,6 @@ class Solution:
         for i in words:
             y=1
             s=list(c for c in chars)
-            print(s)
             for c in i:
                 if c in s:
                     s.remove(c)
